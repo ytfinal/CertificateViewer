@@ -12,10 +12,6 @@ Public Class CertificateViewerForm
         ' Add any initialization after the InitializeComponent() call.
     End Sub
 
-    Private Sub CertificateViewerForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub BroweButton_Click(sender As Object, e As EventArgs) Handles BroweButton.Click
         If CertFileOpenFileDialog.ShowDialog = System.Windows.Forms.DialogResult.OK Then
             CertPathTextBox.Text = CertFileOpenFileDialog.FileName
