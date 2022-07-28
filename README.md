@@ -1,6 +1,6 @@
 # CertificateViewer
 
-Simple Utility that displays the contents of the certificate file.
+Simple Winforms that displays the contents of the certificate file.
 
 Only supports .cer and .pfx files
 
