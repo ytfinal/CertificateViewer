@@ -2,7 +2,6 @@
 
 Public Class CertificateViewerForm
     Private x509Cert As X509Certificate2
-    Private ReturnBase64CertString As String
 
     Public Sub New()
 
@@ -92,8 +91,4 @@ Public Class CertificateViewerForm
         CertificateToXMLTextBox.Text = ""
     End Sub
 
-    Private Sub ApplyButton_Click(sender As Object, e As EventArgs)
-        ReturnBase64CertString = CertBase64TextBox.Text
-        Me.Close()
-    End Sub
 End Class
